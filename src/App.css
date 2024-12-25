@@ -1,0 +1,118 @@
+.login-contianer {
+  background: linear-gradient(to right, #feaf00, #f8d442);
+}
+.login-contianer .login-info{
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.login-contianer .bg-white span{
+ color: #6C6C6C
+}
+.login-header {
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 29.26px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+.login-header::before {
+  content: "";
+  width: 3px;
+  height: 28px;
+  background-color: #F8D442;
+  position: absolute;
+  /* left: -31px; */
+  margin: 0% -1%;
+}
+.login-signIn {
+  font-family: Montserrat;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 26.82px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+.mainContent{
+  height: 100vh;
+  overflow-y: auto;
+}
+.home{
+  height: 90vh;
+  flex-direction: column;
+  text-align: center;
+}
+.home .wavyHand{
+  width: 7%;
+}
+.sidebar-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 250px; 
+  overflow: hidden;
+  background-color: #f8f9fa; 
+}
+
+.content-container {
+  margin-left: 250px; 
+  width: calc(100% - 250px); 
+}
+
+.scrollable-content {
+  overflow-y: auto;
+  height: calc(100vh - 60px);
+  padding: 1rem;
+}
+.form-group{
+  margin: 10% 0%;
+}
+.form-group label{
+  color: #6C6C6C;
+}
+.login-btn{
+  width: 100%;
+  background-color: #feaf00;
+  border-color: #feaf00;
+}
+.login-btn:hover{
+  background-color: #ac7806;
+  border-color: #ac7806;
+
+}
+.ps-active{
+  background-color: #FEAF00;
+}
+.ps-menu-button:hover{
+ background-color: #feae0061 !important;
+
+} 
+@media (max-width: 767.98px) {
+  .login-contianer .w-sm-100 {
+    max-width: 91% !important;
+  }
+}
+.cardFormProfile{
+  position: relative;
+  margin-top: 11% !important;
+}
+.profileImage{
+  position: absolute;
+  top: 0%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.profileImage img{
+  border-radius: 50%;
+}
+.ps-sidebar-container{
+  background-color: #F2EAE1 !important;
+}
+.btn:disabled{
+  background-color: #be8a168f;
+  border: #be8a168f;
+}

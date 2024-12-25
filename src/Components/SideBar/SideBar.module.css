@@ -1,0 +1,24 @@
+.loginHeader {
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 29.26px;
+    padding: 8%;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+  }
+  .loginHeader::before {
+    content: "";
+    width: 3px;
+    height: 28px;
+    background-color: #F8D442;
+    position: absolute;
+    margin: 0% -3%;
+  }
+  .role{
+    color: #F8D442;
+  }
+  .menuItemsFlex{
+    height: 55vh ;
+  }
